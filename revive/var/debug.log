@@ -1,0 +1,500 @@
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop table rv_account_preference_assoc
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop the table account_preference_assoc
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop table rv_account_user_assoc
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop the table account_user_assoc
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop table rv_account_user_permission_assoc
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop the table account_user_permission_assoc
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop table rv_accounts
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop the table accounts
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop table rv_acls
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop the table acls
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop table rv_acls_channel
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop the table acls_channel
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop table rv_ad_category_assoc
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop the table ad_category_assoc
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop table rv_ad_zone_assoc
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop the table ad_zone_assoc
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop table rv_affiliates
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop the table affiliates
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop table rv_affiliates_extra
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop the table affiliates_extra
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop table rv_agency
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop the table agency
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop table rv_application_variable
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop the table application_variable
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop table rv_audit
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop the table audit
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop table rv_banners
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop the table banners
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop table rv_campaigns
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop the table campaigns
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop table rv_campaigns_trackers
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop the table campaigns_trackers
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop table rv_category
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop the table category
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop table rv_channel
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop the table channel
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop table rv_clients
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop the table clients
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop table rv_data_intermediate_ad
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop the table data_intermediate_ad
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop table rv_data_intermediate_ad_connection
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop the table data_intermediate_ad_connection
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop table rv_data_intermediate_ad_variable_value
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop the table data_intermediate_ad_variable_value
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop table rv_data_raw_ad_click
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop the table data_raw_ad_click
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop table rv_data_raw_ad_impression
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop the table data_raw_ad_impression
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop table rv_data_raw_ad_request
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop the table data_raw_ad_request
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop table rv_data_raw_tracker_impression
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop the table data_raw_tracker_impression
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop table rv_data_raw_tracker_variable_value
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop the table data_raw_tracker_variable_value
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop table rv_data_summary_ad_hourly
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop the table data_summary_ad_hourly
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop table rv_data_summary_ad_zone_assoc
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop the table data_summary_ad_zone_assoc
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop table rv_data_summary_channel_daily
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop the table data_summary_channel_daily
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop table rv_data_summary_zone_impression_history
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop the table data_summary_zone_impression_history
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop table rv_images
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop the table images
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop table rv_log_maintenance_forecasting
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop the table log_maintenance_forecasting
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop table rv_log_maintenance_priority
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop the table log_maintenance_priority
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop table rv_log_maintenance_statistics
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop the table log_maintenance_statistics
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop table rv_password_recovery
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop the table password_recovery
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop table rv_placement_zone_assoc
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop the table placement_zone_assoc
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop table rv_preferences
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop the table preferences
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop table rv_session
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop the table session
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop table rv_targetstats
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop the table targetstats
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop table rv_tracker_append
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop the table tracker_append
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop table rv_trackers
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop the table trackers
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop table rv_userlog
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop the table userlog
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop table rv_users
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop the table users
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop table rv_variable_publisher
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop the table variable_publisher
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop table rv_variables
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop the table variables
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop table rv_zones
+Apr 04 08:38:45 +0200 OX-660e4af5b80c2 [    error]  Unable to drop the table zones
+Apr 04 08:41:45 +0200 OX-plugins-660e4ba9e268d [     info]  starting _checkPackageContents openXBannerTypes.xml
+Apr 04 08:41:45 +0200 OX-plugins-660e4ba9e268d [     info]  expecting definition openXBannerTypes.xml
+Apr 04 08:41:45 +0200 OX-plugins-660e4ba9e268d [     info]  detected plugin definition file /plugins/etc/openXBannerTypes.xml
+Apr 04 08:41:45 +0200 OX-plugins-660e4ba9e268d [     info]  detected group definition file /plugins/etc/oxText/oxText.xml
+Apr 04 08:41:45 +0200 OX-plugins-660e4ba9e268d [     info]  detected group definition file /plugins/etc/oxHtml/oxHtml.xml
+Apr 04 08:41:45 +0200 OX-plugins-660e4ba9e268d [     info]  Executing _checkOpenXCompatibility for oxHtml
+Apr 04 08:41:45 +0200 OX-plugins-660e4ba9e268d [     info]  Executing _checkSystemEnvironment for oxHtml
+Apr 04 08:41:45 +0200 OX-plugins-660e4ba9e268d [     info]  Executing _checkDatabaseEnvironment for oxHtml
+Apr 04 08:41:45 +0200 OX-plugins-660e4ba9e268d [     info]  Executing _runScript for oxHtml
+Apr 04 08:41:45 +0200 OX-plugins-660e4ba9e268d [     info]  Executing _checkDependenciesForInstallOrEnable for oxHtml
+Apr 04 08:41:45 +0200 OX-plugins-660e4ba9e268d [     info]  Executing _checkFiles for oxHtml
+Apr 04 08:41:45 +0200 OX-plugins-660e4ba9e268d [     info]  Executing _checkNavigationCheckers for oxHtml
+Apr 04 08:41:45 +0200 OX-plugins-660e4ba9e268d [     info]  Executing _checkMenus for oxHtml
+Apr 04 08:41:45 +0200 OX-plugins-660e4ba9e268d [     info]  Executing _registerSchema for oxHtml
+Apr 04 08:41:45 +0200 OX-plugins-660e4ba9e268d [     info]  Executing _registerPreferences for oxHtml
+Apr 04 08:41:45 +0200 OX-plugins-660e4ba9e268d [     info]  Executing _registerSettings for oxHtml
+Apr 04 08:41:45 +0200 OX-plugins-660e4ba9e268d [     info]  Executing disableComponentGroup for oxHtml
+Apr 04 08:41:45 +0200 OX-plugins-660e4ba9e268d [     info]  Executing _registerPluginVersion for oxHtml
+Apr 04 08:41:45 +0200 OX-plugins-660e4ba9e268d [     info]  Executing _runScript for oxHtml
+Apr 04 08:41:45 +0200 OX-plugins-660e4ba9e268d [     info]  Executing _checkOpenXCompatibility for oxText
+Apr 04 08:41:45 +0200 OX-plugins-660e4ba9e268d [     info]  Executing _checkSystemEnvironment for oxText
+Apr 04 08:41:45 +0200 OX-plugins-660e4ba9e268d [     info]  Executing _checkDatabaseEnvironment for oxText
+Apr 04 08:41:45 +0200 OX-plugins-660e4ba9e268d [     info]  Executing _runScript for oxText
+Apr 04 08:41:45 +0200 OX-plugins-660e4ba9e268d [     info]  Executing _checkDependenciesForInstallOrEnable for oxText
+Apr 04 08:41:45 +0200 OX-plugins-660e4ba9e268d [     info]  Executing _checkFiles for oxText
+Apr 04 08:41:45 +0200 OX-plugins-660e4ba9e268d [     info]  Executing _checkNavigationCheckers for oxText
+Apr 04 08:41:45 +0200 OX-plugins-660e4ba9e268d [     info]  Executing _checkMenus for oxText
+Apr 04 08:41:45 +0200 OX-plugins-660e4ba9e268d [     info]  Executing _registerSchema for oxText
+Apr 04 08:41:45 +0200 OX-plugins-660e4ba9e268d [     info]  Executing _registerPreferences for oxText
+Apr 04 08:41:45 +0200 OX-plugins-660e4ba9e268d [     info]  Executing _registerSettings for oxText
+Apr 04 08:41:45 +0200 OX-plugins-660e4ba9e268d [     info]  Executing disableComponentGroup for oxText
+Apr 04 08:41:45 +0200 OX-plugins-660e4ba9e268d [     info]  Executing _registerPluginVersion for oxText
+Apr 04 08:41:45 +0200 OX-plugins-660e4ba9e268d [     info]  Executing _runScript for oxText
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  starting _checkPackageContents openXDeliveryLimitations.xml
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  expecting definition openXDeliveryLimitations.xml
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  detected group definition file /plugins/etc/Client/Client.xml
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  detected group definition file /plugins/etc/Time/Time.xml
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  detected plugin definition file /plugins/etc/openXDeliveryLimitations.xml
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  detected group definition file /plugins/etc/Site/Site.xml
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  detected group definition file /plugins/etc/Geo/Geo.xml
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _checkOpenXCompatibility for Client
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _checkSystemEnvironment for Client
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _checkDatabaseEnvironment for Client
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _runScript for Client
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _checkDependenciesForInstallOrEnable for Client
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _checkFiles for Client
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _checkNavigationCheckers for Client
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _checkMenus for Client
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _registerSchema for Client
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _registerPreferences for Client
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _registerSettings for Client
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing disableComponentGroup for Client
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _registerPluginVersion for Client
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _runScript for Client
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _checkOpenXCompatibility for Geo
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _checkSystemEnvironment for Geo
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _checkDatabaseEnvironment for Geo
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _runScript for Geo
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _checkDependenciesForInstallOrEnable for Geo
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _checkFiles for Geo
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _checkNavigationCheckers for Geo
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _checkMenus for Geo
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _registerSchema for Geo
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _registerPreferences for Geo
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _registerSettings for Geo
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing disableComponentGroup for Geo
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _registerPluginVersion for Geo
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _runScript for Geo
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _checkOpenXCompatibility for Site
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _checkSystemEnvironment for Site
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _checkDatabaseEnvironment for Site
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _runScript for Site
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _checkDependenciesForInstallOrEnable for Site
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _checkFiles for Site
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _checkNavigationCheckers for Site
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _checkMenus for Site
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _registerSchema for Site
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _registerPreferences for Site
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _registerSettings for Site
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing disableComponentGroup for Site
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _registerPluginVersion for Site
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _runScript for Site
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _checkOpenXCompatibility for Time
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _checkSystemEnvironment for Time
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _checkDatabaseEnvironment for Time
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _runScript for Time
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _checkDependenciesForInstallOrEnable for Time
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _checkFiles for Time
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _checkNavigationCheckers for Time
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _checkMenus for Time
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _registerSchema for Time
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _registerPreferences for Time
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _registerSettings for Time
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing disableComponentGroup for Time
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _registerPluginVersion for Time
+Apr 04 08:41:48 +0200 OX-plugins-660e4bac7b273 [     info]  Executing _runScript for Time
+Apr 04 08:41:51 +0200 OX-plugins-660e4baf25a90 [     info]  starting _checkPackageContents openXReports.xml
+Apr 04 08:41:51 +0200 OX-plugins-660e4baf25a90 [     info]  expecting definition openXReports.xml
+Apr 04 08:41:51 +0200 OX-plugins-660e4baf25a90 [     info]  detected plugin definition file /plugins/etc/openXReports.xml
+Apr 04 08:41:51 +0200 OX-plugins-660e4baf25a90 [     info]  detected group definition file /plugins/etc/oxReportsAdmin/oxReportsAdmin.xml
+Apr 04 08:41:51 +0200 OX-plugins-660e4baf25a90 [     info]  detected group definition file /plugins/etc/oxReportsStandard/oxReportsStandard.xml
+Apr 04 08:41:51 +0200 OX-plugins-660e4baf25a90 [     info]  Executing _checkOpenXCompatibility for oxReportsStandard
+Apr 04 08:41:51 +0200 OX-plugins-660e4baf25a90 [     info]  Executing _checkSystemEnvironment for oxReportsStandard
+Apr 04 08:41:51 +0200 OX-plugins-660e4baf25a90 [     info]  Executing _checkDatabaseEnvironment for oxReportsStandard
+Apr 04 08:41:51 +0200 OX-plugins-660e4baf25a90 [     info]  Executing _runScript for oxReportsStandard
+Apr 04 08:41:51 +0200 OX-plugins-660e4baf25a90 [     info]  Executing _checkDependenciesForInstallOrEnable for oxReportsStandard
+Apr 04 08:41:51 +0200 OX-plugins-660e4baf25a90 [     info]  Executing _checkFiles for oxReportsStandard
+Apr 04 08:41:51 +0200 OX-plugins-660e4baf25a90 [     info]  Executing _checkNavigationCheckers for oxReportsStandard
+Apr 04 08:41:51 +0200 OX-plugins-660e4baf25a90 [     info]  Executing _checkMenus for oxReportsStandard
+Apr 04 08:41:51 +0200 OX-plugins-660e4baf25a90 [     info]  Executing _registerSchema for oxReportsStandard
+Apr 04 08:41:51 +0200 OX-plugins-660e4baf25a90 [     info]  Executing _registerPreferences for oxReportsStandard
+Apr 04 08:41:51 +0200 OX-plugins-660e4baf25a90 [     info]  Executing _registerSettings for oxReportsStandard
+Apr 04 08:41:51 +0200 OX-plugins-660e4baf25a90 [     info]  Executing disableComponentGroup for oxReportsStandard
+Apr 04 08:41:51 +0200 OX-plugins-660e4baf25a90 [     info]  Executing _registerPluginVersion for oxReportsStandard
+Apr 04 08:41:51 +0200 OX-plugins-660e4baf25a90 [     info]  Executing _runScript for oxReportsStandard
+Apr 04 08:41:51 +0200 OX-plugins-660e4baf25a90 [     info]  Executing _checkOpenXCompatibility for oxReportsAdmin
+Apr 04 08:41:51 +0200 OX-plugins-660e4baf25a90 [     info]  Executing _checkSystemEnvironment for oxReportsAdmin
+Apr 04 08:41:51 +0200 OX-plugins-660e4baf25a90 [     info]  Executing _checkDatabaseEnvironment for oxReportsAdmin
+Apr 04 08:41:51 +0200 OX-plugins-660e4baf25a90 [     info]  Executing _runScript for oxReportsAdmin
+Apr 04 08:41:51 +0200 OX-plugins-660e4baf25a90 [     info]  Executing _checkDependenciesForInstallOrEnable for oxReportsAdmin
+Apr 04 08:41:51 +0200 OX-plugins-660e4baf25a90 [     info]  Executing _checkFiles for oxReportsAdmin
+Apr 04 08:41:51 +0200 OX-plugins-660e4baf25a90 [     info]  Executing _checkNavigationCheckers for oxReportsAdmin
+Apr 04 08:41:51 +0200 OX-plugins-660e4baf25a90 [     info]  Executing _checkMenus for oxReportsAdmin
+Apr 04 08:41:51 +0200 OX-plugins-660e4baf25a90 [     info]  Executing _registerSchema for oxReportsAdmin
+Apr 04 08:41:51 +0200 OX-plugins-660e4baf25a90 [     info]  Executing _registerPreferences for oxReportsAdmin
+Apr 04 08:41:51 +0200 OX-plugins-660e4baf25a90 [     info]  Executing _registerSettings for oxReportsAdmin
+Apr 04 08:41:51 +0200 OX-plugins-660e4baf25a90 [     info]  Executing disableComponentGroup for oxReportsAdmin
+Apr 04 08:41:51 +0200 OX-plugins-660e4baf25a90 [     info]  Executing _registerPluginVersion for oxReportsAdmin
+Apr 04 08:41:51 +0200 OX-plugins-660e4baf25a90 [     info]  Executing _runScript for oxReportsAdmin
+Apr 04 08:41:53 +0200 OX-plugins-660e4bb1b0e80 [     info]  starting _checkPackageContents openXDeliveryCacheStore.xml
+Apr 04 08:41:53 +0200 OX-plugins-660e4bb1b0e80 [     info]  expecting definition openXDeliveryCacheStore.xml
+Apr 04 08:41:53 +0200 OX-plugins-660e4bb1b0e80 [     info]  detected group definition file /plugins/etc/oxMemcached/oxMemcached.xml
+Apr 04 08:41:53 +0200 OX-plugins-660e4bb1b0e80 [     info]  detected plugin definition file /plugins/etc/openXDeliveryCacheStore.xml
+Apr 04 08:41:53 +0200 OX-plugins-660e4bb1b0e80 [     info]  detected group definition file /plugins/etc/oxCacheFile/oxCacheFile.xml
+Apr 04 08:41:53 +0200 OX-plugins-660e4bb1b0e80 [     info]  Executing _checkOpenXCompatibility for oxCacheFile
+Apr 04 08:41:53 +0200 OX-plugins-660e4bb1b0e80 [     info]  Executing _checkSystemEnvironment for oxCacheFile
+Apr 04 08:41:53 +0200 OX-plugins-660e4bb1b0e80 [     info]  Executing _checkDatabaseEnvironment for oxCacheFile
+Apr 04 08:41:53 +0200 OX-plugins-660e4bb1b0e80 [     info]  Executing _runScript for oxCacheFile
+Apr 04 08:41:53 +0200 OX-plugins-660e4bb1b0e80 [     info]  Executing _checkDependenciesForInstallOrEnable for oxCacheFile
+Apr 04 08:41:53 +0200 OX-plugins-660e4bb1b0e80 [     info]  Executing _checkFiles for oxCacheFile
+Apr 04 08:41:53 +0200 OX-plugins-660e4bb1b0e80 [     info]  Executing _checkNavigationCheckers for oxCacheFile
+Apr 04 08:41:53 +0200 OX-plugins-660e4bb1b0e80 [     info]  Executing _checkMenus for oxCacheFile
+Apr 04 08:41:53 +0200 OX-plugins-660e4bb1b0e80 [     info]  Executing _registerSchema for oxCacheFile
+Apr 04 08:41:53 +0200 OX-plugins-660e4bb1b0e80 [     info]  Executing _registerPreferences for oxCacheFile
+Apr 04 08:41:53 +0200 OX-plugins-660e4bb1b0e80 [     info]  Executing _registerSettings for oxCacheFile
+Apr 04 08:41:53 +0200 OX-plugins-660e4bb1b0e80 [     info]  Executing disableComponentGroup for oxCacheFile
+Apr 04 08:41:53 +0200 OX-plugins-660e4bb1b0e80 [     info]  Executing _registerPluginVersion for oxCacheFile
+Apr 04 08:41:53 +0200 OX-plugins-660e4bb1b0e80 [     info]  Executing _runScript for oxCacheFile
+Apr 04 08:41:53 +0200 OX-plugins-660e4bb1b0e80 [     info]  Executing _checkOpenXCompatibility for oxMemcached
+Apr 04 08:41:53 +0200 OX-plugins-660e4bb1b0e80 [     info]  Executing _checkSystemEnvironment for oxMemcached
+Apr 04 08:41:53 +0200 OX-plugins-660e4bb1b0e80 [     info]  Executing _checkDatabaseEnvironment for oxMemcached
+Apr 04 08:41:53 +0200 OX-plugins-660e4bb1b0e80 [     info]  Executing _runScript for oxMemcached
+Apr 04 08:41:53 +0200 OX-plugins-660e4bb1b0e80 [     info]  Executing _checkDependenciesForInstallOrEnable for oxMemcached
+Apr 04 08:41:53 +0200 OX-plugins-660e4bb1b0e80 [     info]  Executing _checkFiles for oxMemcached
+Apr 04 08:41:53 +0200 OX-plugins-660e4bb1b0e80 [     info]  Executing _checkNavigationCheckers for oxMemcached
+Apr 04 08:41:53 +0200 OX-plugins-660e4bb1b0e80 [     info]  Executing _checkMenus for oxMemcached
+Apr 04 08:41:53 +0200 OX-plugins-660e4bb1b0e80 [     info]  Executing _registerSchema for oxMemcached
+Apr 04 08:41:53 +0200 OX-plugins-660e4bb1b0e80 [     info]  Executing _registerPreferences for oxMemcached
+Apr 04 08:41:53 +0200 OX-plugins-660e4bb1b0e80 [     info]  Executing _registerSettings for oxMemcached
+Apr 04 08:41:53 +0200 OX-plugins-660e4bb1b0e80 [     info]  Executing disableComponentGroup for oxMemcached
+Apr 04 08:41:53 +0200 OX-plugins-660e4bb1b0e80 [     info]  Executing _registerPluginVersion for oxMemcached
+Apr 04 08:41:53 +0200 OX-plugins-660e4bb1b0e80 [     info]  Executing _runScript for oxMemcached
+Apr 04 08:41:56 +0200 OX-plugins-660e4bb444afa [     info]  starting _checkPackageContents openXInvocationTags.xml
+Apr 04 08:41:56 +0200 OX-plugins-660e4bb444afa [     info]  expecting definition openXInvocationTags.xml
+Apr 04 08:41:56 +0200 OX-plugins-660e4bb444afa [     info]  detected group definition file /plugins/etc/oxInvocationTags/oxInvocationTags.xml
+Apr 04 08:41:56 +0200 OX-plugins-660e4bb444afa [     info]  detected plugin definition file /plugins/etc/openXInvocationTags.xml
+Apr 04 08:41:56 +0200 OX-plugins-660e4bb444afa [     info]  Executing _checkOpenXCompatibility for oxInvocationTags
+Apr 04 08:41:56 +0200 OX-plugins-660e4bb444afa [     info]  Executing _checkSystemEnvironment for oxInvocationTags
+Apr 04 08:41:56 +0200 OX-plugins-660e4bb444afa [     info]  Executing _checkDatabaseEnvironment for oxInvocationTags
+Apr 04 08:41:56 +0200 OX-plugins-660e4bb444afa [     info]  Executing _runScript for oxInvocationTags
+Apr 04 08:41:56 +0200 OX-plugins-660e4bb444afa [     info]  Executing _checkDependenciesForInstallOrEnable for oxInvocationTags
+Apr 04 08:41:56 +0200 OX-plugins-660e4bb444afa [     info]  Executing _checkFiles for oxInvocationTags
+Apr 04 08:41:56 +0200 OX-plugins-660e4bb444afa [     info]  Executing _checkNavigationCheckers for oxInvocationTags
+Apr 04 08:41:56 +0200 OX-plugins-660e4bb444afa [     info]  Executing _checkMenus for oxInvocationTags
+Apr 04 08:41:56 +0200 OX-plugins-660e4bb444afa [     info]  Executing _registerSchema for oxInvocationTags
+Apr 04 08:41:56 +0200 OX-plugins-660e4bb444afa [     info]  Executing _registerPreferences for oxInvocationTags
+Apr 04 08:41:56 +0200 OX-plugins-660e4bb444afa [     info]  Executing _registerSettings for oxInvocationTags
+Apr 04 08:41:56 +0200 OX-plugins-660e4bb444afa [     info]  Executing disableComponentGroup for oxInvocationTags
+Apr 04 08:41:56 +0200 OX-plugins-660e4bb444afa [     info]  Executing _registerPluginVersion for oxInvocationTags
+Apr 04 08:41:56 +0200 OX-plugins-660e4bb444afa [     info]  Executing _runScript for oxInvocationTags
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  starting _checkPackageContents openXDeliveryLog.xml
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  expecting definition openXDeliveryLog.xml
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  detected group definition file /plugins/etc/oxLogImpression/oxLogImpression.xml
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  detected group definition file /plugins/etc/oxDeliveryDataPrepare/oxDeliveryDataPrepare.xml
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  detected plugin definition file /plugins/etc/openXDeliveryLog.xml
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  detected group definition file /plugins/etc/oxLogConversion/oxLogConversion.xml
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  detected group definition file /plugins/etc/oxLogRequest/oxLogRequest.xml
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  detected group definition file /plugins/etc/oxLogClick/oxLogClick.xml
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _checkOpenXCompatibility for oxDeliveryDataPrepare
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _checkSystemEnvironment for oxDeliveryDataPrepare
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _checkDatabaseEnvironment for oxDeliveryDataPrepare
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _runScript for oxDeliveryDataPrepare
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _checkDependenciesForInstallOrEnable for oxDeliveryDataPrepare
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _checkFiles for oxDeliveryDataPrepare
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _checkNavigationCheckers for oxDeliveryDataPrepare
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _checkMenus for oxDeliveryDataPrepare
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _registerSchema for oxDeliveryDataPrepare
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _registerPreferences for oxDeliveryDataPrepare
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _registerSettings for oxDeliveryDataPrepare
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing disableComponentGroup for oxDeliveryDataPrepare
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _registerPluginVersion for oxDeliveryDataPrepare
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _runScript for oxDeliveryDataPrepare
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _checkOpenXCompatibility for oxLogClick
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _checkSystemEnvironment for oxLogClick
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _checkDatabaseEnvironment for oxLogClick
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _runScript for oxLogClick
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _checkDependenciesForInstallOrEnable for oxLogClick
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _checkFiles for oxLogClick
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _checkNavigationCheckers for oxLogClick
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _checkMenus for oxLogClick
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _registerSchema for oxLogClick
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _registerPreferences for oxLogClick
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _registerSettings for oxLogClick
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing disableComponentGroup for oxLogClick
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _registerPluginVersion for oxLogClick
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _runScript for oxLogClick
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _checkOpenXCompatibility for oxLogConversion
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _checkSystemEnvironment for oxLogConversion
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _checkDatabaseEnvironment for oxLogConversion
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _runScript for oxLogConversion
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _checkDependenciesForInstallOrEnable for oxLogConversion
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _checkFiles for oxLogConversion
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _checkNavigationCheckers for oxLogConversion
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _checkMenus for oxLogConversion
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _registerSchema for oxLogConversion
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _registerPreferences for oxLogConversion
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _registerSettings for oxLogConversion
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing disableComponentGroup for oxLogConversion
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _registerPluginVersion for oxLogConversion
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _runScript for oxLogConversion
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _checkOpenXCompatibility for oxLogImpression
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _checkSystemEnvironment for oxLogImpression
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _checkDatabaseEnvironment for oxLogImpression
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _runScript for oxLogImpression
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _checkDependenciesForInstallOrEnable for oxLogImpression
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _checkFiles for oxLogImpression
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _checkNavigationCheckers for oxLogImpression
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _checkMenus for oxLogImpression
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _registerSchema for oxLogImpression
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _registerPreferences for oxLogImpression
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _registerSettings for oxLogImpression
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing disableComponentGroup for oxLogImpression
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _registerPluginVersion for oxLogImpression
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _runScript for oxLogImpression
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _checkOpenXCompatibility for oxLogRequest
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _checkSystemEnvironment for oxLogRequest
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _checkDatabaseEnvironment for oxLogRequest
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _runScript for oxLogRequest
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _checkDependenciesForInstallOrEnable for oxLogRequest
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _checkFiles for oxLogRequest
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _checkNavigationCheckers for oxLogRequest
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _checkMenus for oxLogRequest
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _registerSchema for oxLogRequest
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _registerPreferences for oxLogRequest
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _registerSettings for oxLogRequest
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing disableComponentGroup for oxLogRequest
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _registerPluginVersion for oxLogRequest
+Apr 04 08:41:58 +0200 OX-plugins-660e4bb6d0cf3 [     info]  Executing _runScript for oxLogRequest
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  starting _checkPackageContents openXVideoAds.xml
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  expecting definition openXVideoAds.xml
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  detected group definition file /plugins/etc/videoReport/videoReport.xml
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  detected plugin definition file /plugins/etc/openXVideoAds.xml
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  detected group definition file /plugins/etc/oxLogVast/oxLogVast.xml
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  detected group definition file /plugins/etc/vastServeVideoPlayer/vastServeVideoPlayer.xml
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  detected group definition file /plugins/etc/vastOverlayBannerTypeHtml/vastOverlayBannerTypeHtml.xml
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  detected group definition file /plugins/etc/vastInlineBannerTypeHtml/vastInlineBannerTypeHtml.xml
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _checkOpenXCompatibility for vastInlineBannerTypeHtml
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _checkSystemEnvironment for vastInlineBannerTypeHtml
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _checkDatabaseEnvironment for vastInlineBannerTypeHtml
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _runScript for vastInlineBannerTypeHtml
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _checkDependenciesForInstallOrEnable for vastInlineBannerTypeHtml
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _checkFiles for vastInlineBannerTypeHtml
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _checkNavigationCheckers for vastInlineBannerTypeHtml
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _checkMenus for vastInlineBannerTypeHtml
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _registerSchema for vastInlineBannerTypeHtml
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _registerPreferences for vastInlineBannerTypeHtml
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _registerSettings for vastInlineBannerTypeHtml
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing disableComponentGroup for vastInlineBannerTypeHtml
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _registerPluginVersion for vastInlineBannerTypeHtml
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _runScript for vastInlineBannerTypeHtml
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _checkOpenXCompatibility for vastOverlayBannerTypeHtml
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _checkSystemEnvironment for vastOverlayBannerTypeHtml
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _checkDatabaseEnvironment for vastOverlayBannerTypeHtml
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _runScript for vastOverlayBannerTypeHtml
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _checkDependenciesForInstallOrEnable for vastOverlayBannerTypeHtml
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _checkFiles for vastOverlayBannerTypeHtml
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _checkNavigationCheckers for vastOverlayBannerTypeHtml
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _checkMenus for vastOverlayBannerTypeHtml
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _registerSchema for vastOverlayBannerTypeHtml
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _registerPreferences for vastOverlayBannerTypeHtml
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _registerSettings for vastOverlayBannerTypeHtml
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing disableComponentGroup for vastOverlayBannerTypeHtml
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _registerPluginVersion for vastOverlayBannerTypeHtml
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _runScript for vastOverlayBannerTypeHtml
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _checkOpenXCompatibility for oxLogVast
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _checkSystemEnvironment for oxLogVast
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _checkDatabaseEnvironment for oxLogVast
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _runScript for oxLogVast
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _checkDependenciesForInstallOrEnable for oxLogVast
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _checkFiles for oxLogVast
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _checkNavigationCheckers for oxLogVast
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _checkMenus for oxLogVast
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _registerSchema for oxLogVast
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _registerPreferences for oxLogVast
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _registerSettings for oxLogVast
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing disableComponentGroup for oxLogVast
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _registerPluginVersion for oxLogVast
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _runScript for oxLogVast
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _checkOpenXCompatibility for vastServeVideoPlayer
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _checkSystemEnvironment for vastServeVideoPlayer
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _checkDatabaseEnvironment for vastServeVideoPlayer
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _runScript for vastServeVideoPlayer
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _checkDependenciesForInstallOrEnable for vastServeVideoPlayer
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _checkFiles for vastServeVideoPlayer
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _checkNavigationCheckers for vastServeVideoPlayer
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _checkMenus for vastServeVideoPlayer
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _registerSchema for vastServeVideoPlayer
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _registerPreferences for vastServeVideoPlayer
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _registerSettings for vastServeVideoPlayer
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing disableComponentGroup for vastServeVideoPlayer
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _registerPluginVersion for vastServeVideoPlayer
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _runScript for vastServeVideoPlayer
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _checkOpenXCompatibility for videoReport
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _checkSystemEnvironment for videoReport
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _checkDatabaseEnvironment for videoReport
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _runScript for videoReport
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _checkDependenciesForInstallOrEnable for videoReport
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _checkFiles for videoReport
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _checkNavigationCheckers for videoReport
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _checkMenus for videoReport
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _registerSchema for videoReport
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _registerPreferences for videoReport
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _registerSettings for videoReport
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing disableComponentGroup for videoReport
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _registerPluginVersion for videoReport
+Apr 04 08:42:01 +0200 OX-plugins-660e4bb97f8fb [     info]  Executing _runScript for videoReport
+Apr 04 08:42:04 +0200 OX-plugins-660e4bbc2e2e9 [     info]  starting _checkPackageContents reviveMaxMindGeoIP2.xml
+Apr 04 08:42:04 +0200 OX-plugins-660e4bbc2e2e9 [     info]  expecting definition reviveMaxMindGeoIP2.xml
+Apr 04 08:42:04 +0200 OX-plugins-660e4bbc2e2e9 [     info]  detected plugin definition file /plugins/etc/reviveMaxMindGeoIP2.xml
+Apr 04 08:42:04 +0200 OX-plugins-660e4bbc2e2e9 [     info]  detected group definition file /plugins/etc/rvMaxMindGeoIP2Maintenance/rvMaxMindGeoIP2Maintenance.xml
+Apr 04 08:42:04 +0200 OX-plugins-660e4bbc2e2e9 [     info]  detected group definition file /plugins/etc/rvMaxMindGeoIP2/rvMaxMindGeoIP2.xml
+Apr 04 08:42:04 +0200 OX-plugins-660e4bbc2e2e9 [     info]  Executing _checkOpenXCompatibility for rvMaxMindGeoIP2
+Apr 04 08:42:04 +0200 OX-plugins-660e4bbc2e2e9 [     info]  Executing _checkSystemEnvironment for rvMaxMindGeoIP2
+Apr 04 08:42:04 +0200 OX-plugins-660e4bbc2e2e9 [     info]  Executing _checkDatabaseEnvironment for rvMaxMindGeoIP2
+Apr 04 08:42:04 +0200 OX-plugins-660e4bbc2e2e9 [     info]  Executing _runScript for rvMaxMindGeoIP2
+Apr 04 08:42:04 +0200 OX-plugins-660e4bbc2e2e9 [     info]  Executing _checkDependenciesForInstallOrEnable for rvMaxMindGeoIP2
+Apr 04 08:42:04 +0200 OX-plugins-660e4bbc2e2e9 [     info]  Executing _checkFiles for rvMaxMindGeoIP2
+Apr 04 08:42:04 +0200 OX-plugins-660e4bbc2e2e9 [     info]  Executing _checkNavigationCheckers for rvMaxMindGeoIP2
+Apr 04 08:42:04 +0200 OX-plugins-660e4bbc2e2e9 [     info]  Executing _checkMenus for rvMaxMindGeoIP2
+Apr 04 08:42:04 +0200 OX-plugins-660e4bbc2e2e9 [     info]  Executing _registerSchema for rvMaxMindGeoIP2
+Apr 04 08:42:04 +0200 OX-plugins-660e4bbc2e2e9 [     info]  Executing _registerPreferences for rvMaxMindGeoIP2
+Apr 04 08:42:04 +0200 OX-plugins-660e4bbc2e2e9 [     info]  Executing _registerSettings for rvMaxMindGeoIP2
+Apr 04 08:42:04 +0200 OX-plugins-660e4bbc2e2e9 [     info]  Executing disableComponentGroup for rvMaxMindGeoIP2
+Apr 04 08:42:04 +0200 OX-plugins-660e4bbc2e2e9 [     info]  Executing _registerPluginVersion for rvMaxMindGeoIP2
+Apr 04 08:42:04 +0200 OX-plugins-660e4bbc2e2e9 [     info]  Executing _runScript for rvMaxMindGeoIP2
+Apr 04 08:42:04 +0200 OX-plugins-660e4bbc2e2e9 [     info]  Executing _checkOpenXCompatibility for rvMaxMindGeoIP2Maintenance
+Apr 04 08:42:04 +0200 OX-plugins-660e4bbc2e2e9 [     info]  Executing _checkSystemEnvironment for rvMaxMindGeoIP2Maintenance
+Apr 04 08:42:04 +0200 OX-plugins-660e4bbc2e2e9 [     info]  Executing _checkDatabaseEnvironment for rvMaxMindGeoIP2Maintenance
+Apr 04 08:42:04 +0200 OX-plugins-660e4bbc2e2e9 [     info]  Executing _runScript for rvMaxMindGeoIP2Maintenance
+Apr 04 08:42:04 +0200 OX-plugins-660e4bbc2e2e9 [     info]  Executing _checkDependenciesForInstallOrEnable for rvMaxMindGeoIP2Maintenance
+Apr 04 08:42:04 +0200 OX-plugins-660e4bbc2e2e9 [     info]  Executing _checkFiles for rvMaxMindGeoIP2Maintenance
+Apr 04 08:42:04 +0200 OX-plugins-660e4bbc2e2e9 [     info]  Executing _checkNavigationCheckers for rvMaxMindGeoIP2Maintenance
+Apr 04 08:42:04 +0200 OX-plugins-660e4bbc2e2e9 [     info]  Executing _checkMenus for rvMaxMindGeoIP2Maintenance
+Apr 04 08:42:04 +0200 OX-plugins-660e4bbc2e2e9 [     info]  Executing _registerSchema for rvMaxMindGeoIP2Maintenance
+Apr 04 08:42:04 +0200 OX-plugins-660e4bbc2e2e9 [     info]  Executing _registerPreferences for rvMaxMindGeoIP2Maintenance
+Apr 04 08:42:04 +0200 OX-plugins-660e4bbc2e2e9 [     info]  Executing _registerSettings for rvMaxMindGeoIP2Maintenance
+Apr 04 08:42:04 +0200 OX-plugins-660e4bbc2e2e9 [     info]  Executing disableComponentGroup for rvMaxMindGeoIP2Maintenance
+Apr 04 08:42:04 +0200 OX-plugins-660e4bbc2e2e9 [     info]  Executing _registerPluginVersion for rvMaxMindGeoIP2Maintenance
+Apr 04 08:42:04 +0200 OX-plugins-660e4bbc2e2e9 [     info]  Executing _runScript for rvMaxMindGeoIP2Maintenance
+Apr 04 08:42:05 +0200 OX-plugins-660e4bbc2e2e9 [  warning]  An error occurred trying to download the latest GeoIP2 database: Client error: `GET https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-City&amp;suffix=tar.gz.md5&amp;license_key=` resulted in a `401 Unauthorized` response:
+Invalid license key
+
+
+Apr 04 08:42:08 +0200 OX-plugins-660e4bc003e77 [     info]  starting _checkPackageContents apVideo.xml
+Apr 04 08:42:08 +0200 OX-plugins-660e4bc003e77 [     info]  expecting definition apVideo.xml
+Apr 04 08:42:08 +0200 OX-plugins-660e4bc003e77 [     info]  detected group definition file /plugins/etc/apVideoUI/apVideoUI.xml
+Apr 04 08:42:08 +0200 OX-plugins-660e4bc003e77 [     info]  detected plugin definition file /plugins/etc/apVideo.xml
+Apr 04 08:42:08 +0200 OX-plugins-660e4bc003e77 [     info]  detected group definition file /plugins/etc/apVideo/apVideo.xml
+Apr 04 08:42:08 +0200 OX-plugins-660e4bc003e77 [     info]  Executing _checkOpenXCompatibility for apVideo
+Apr 04 08:42:08 +0200 OX-plugins-660e4bc003e77 [     info]  Executing _checkSystemEnvironment for apVideo
+Apr 04 08:42:08 +0200 OX-plugins-660e4bc003e77 [     info]  Executing _checkDatabaseEnvironment for apVideo
+Apr 04 08:42:08 +0200 OX-plugins-660e4bc003e77 [     info]  Executing _runScript for apVideo
+Apr 04 08:42:08 +0200 OX-plugins-660e4bc003e77 [     info]  Executing _checkDependenciesForInstallOrEnable for apVideo
+Apr 04 08:42:08 +0200 OX-plugins-660e4bc003e77 [     info]  Executing _checkFiles for apVideo
+Apr 04 08:42:08 +0200 OX-plugins-660e4bc003e77 [     info]  Executing _checkNavigationCheckers for apVideo
+Apr 04 08:42:08 +0200 OX-plugins-660e4bc003e77 [     info]  Executing _checkMenus for apVideo
+Apr 04 08:42:08 +0200 OX-plugins-660e4bc003e77 [     info]  Executing _registerSchema for apVideo
+Apr 04 08:42:08 +0200 OX-plugins-660e4bc003e77 [     info]  Executing _registerPreferences for apVideo
+Apr 04 08:42:08 +0200 OX-plugins-660e4bc003e77 [     info]  Executing _registerSettings for apVideo
+Apr 04 08:42:08 +0200 OX-plugins-660e4bc003e77 [     info]  Executing disableComponentGroup for apVideo
+Apr 04 08:42:08 +0200 OX-plugins-660e4bc003e77 [     info]  Executing _registerPluginVersion for apVideo
+Apr 04 08:42:08 +0200 OX-plugins-660e4bc003e77 [     info]  Executing _runScript for apVideo
+Apr 04 08:42:08 +0200 OX-plugins-660e4bc003e77 [     info]  Executing _checkOpenXCompatibility for apVideoUI
+Apr 04 08:42:08 +0200 OX-plugins-660e4bc003e77 [     info]  Executing _checkSystemEnvironment for apVideoUI
+Apr 04 08:42:08 +0200 OX-plugins-660e4bc003e77 [     info]  Executing _checkDatabaseEnvironment for apVideoUI
+Apr 04 08:42:08 +0200 OX-plugins-660e4bc003e77 [     info]  Executing _runScript for apVideoUI
+Apr 04 08:42:08 +0200 OX-plugins-660e4bc003e77 [     info]  Executing _checkDependenciesForInstallOrEnable for apVideoUI
+Apr 04 08:42:08 +0200 OX-plugins-660e4bc003e77 [     info]  Executing _checkFiles for apVideoUI
+Apr 04 08:42:08 +0200 OX-plugins-660e4bc003e77 [     info]  Executing _checkNavigationCheckers for apVideoUI
+Apr 04 08:42:08 +0200 OX-plugins-660e4bc003e77 [     info]  Executing _checkMenus for apVideoUI
+Apr 04 08:42:08 +0200 OX-plugins-660e4bc003e77 [     info]  Executing _registerSchema for apVideoUI
+Apr 04 08:42:08 +0200 OX-plugins-660e4bc003e77 [     info]  Executing _registerPreferences for apVideoUI
+Apr 04 08:42:08 +0200 OX-plugins-660e4bc003e77 [     info]  Executing _registerSettings for apVideoUI
+Apr 04 08:42:08 +0200 OX-plugins-660e4bc003e77 [     info]  Executing disableComponentGroup for apVideoUI
+Apr 04 08:42:08 +0200 OX-plugins-660e4bc003e77 [     info]  Executing _registerPluginVersion for apVideoUI
+Apr 04 08:42:08 +0200 OX-plugins-660e4bc003e77 [     info]  Executing _runScript for apVideoUI
