@@ -1,14 +1,6 @@
 <?php
 
-/*
-+---------------------------------------------------------------------------+
-| Revive Adserver                                                           |
-| http://www.revive-adserver.com                                            |
-|                                                                           |
-| Copyright: See the COPYRIGHT.txt file.                                    |
-| License: GPLv2 or later, see the LICENSE.txt file.                        |
-+---------------------------------------------------------------------------+
-*/
+
 /**
  * @package    Revive Adserver
  *
@@ -16,54 +8,48 @@
  * pre-initialisation "pre-check.php" file, and also as part of the delivery
  * engine, maintenance engine, etc.
  */
+
+//  Don't Repeat Yourself (DRY), Code Readability, and efficient use of resources. 
+define('DEFAULT_MEMORY_LIMIT', 134217728); // 128MB in bytes defined as constant
+
 /**
- * Returns the minimum required amount of memory required for operation.
+ * Returns the minimum required memory for operation based on a specified limit.
  *
- * @param strting $limit An optional limitation level, to have a memory limit OTHER than
- *                       the default UI/delivery engine memory limit returned. If used,
- *                       one of:
- *                          - "cache"       - The limit used for generating XML caches
- *                          - "plugin"      - The limit used for installing pluings
- *                          - "maintenance" - The limit used for the maintenance engine
- * @return integer The required minimum amount of memory (in bytes).
+ * @param string $limit An optional limitation level (e.g., 'cache', 'plugin', 'maintenance').
+ * @return integer The required minimum amount of memory in bytes.
  */
 function OX_getMinimumRequiredMemory($limit = null)
 {
-    if ($limit == 'maintenance') {
-        return 134217728; // 128MB in bytes (128 * 1048576)
-    }
-    return 134217728; // 128MB in bytes (128 * 1048576)
+    // Always returns the default memory limit as no specific limits are differentiated.
+    return DEFAULT_MEMORY_LIMIT;
 }
+
 /**
  * Get the PHP memory_limit value in bytes.
  *
- * @return integer The memory_limit value set in PHP, in bytes
- *                 (or -1, if no limit).
+ * @return integer The memory_limit value set in PHP, in bytes (or -1, if no limit).
  */
 function OX_getMemoryLimitSizeInBytes()
 {
     $phpMemoryLimit = ini_get('memory_limit');
-    if (empty($phpMemoryLimit) || $phpMemoryLimit == -1) {
-        // No memory limit
-        return -1;
+    if ($phpMemoryLimit == -1 || $phpMemoryLimit == '') {
+        return -1; // No memory limit or not set
     }
-    $aSize = [
+    
+    preg_match('/(\d+)([KMG])?/i', $phpMemoryLimit, $matches);
+    $value = $matches[1];
+    $unit = strtoupper($matches[2] ?? 'B'); // Default to bytes if no unit is found
+
+    $multipliers = [
         'G' => 1073741824,
         'M' => 1048576,
-        'K' => 1024
+        'K' => 1024,
+        'B' => 1
     ];
-    $phpMemoryLimitInBytes = $phpMemoryLimit;
-    foreach ($aSize as $type => $multiplier) {
-        $pos = strpos($phpMemoryLimit, $type);
-        if (!$pos) {
-            $pos = strpos($phpMemoryLimit, strtolower($type));
-        }
-        if ($pos) {
-            $phpMemoryLimitInBytes = substr($phpMemoryLimit, 0, $pos) * $multiplier;
-        }
-    }
-    return $phpMemoryLimitInBytes;
+
+    return $value * $multipliers[$unit];
 }
+
 /**
  * Test if the memory_limit can be changed.
  *
