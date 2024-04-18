@@ -1,14 +1,6 @@
 <?php
 
-/*
-+---------------------------------------------------------------------------+
-| Revive Adserver                                                           |
-| http://www.revive-adserver.com                                            |
-|                                                                           |
-| Copyright: See the COPYRIGHT.txt file.                                    |
-| License: GPLv2 or later, see the LICENSE.txt file.                        |
-+---------------------------------------------------------------------------+
-*/
+
 
 /**
  * @package    OpenX
@@ -50,92 +42,70 @@ if (!function_exists('each')) {
     }
 }
 
-/**
- * Setup common variables - used by both delivery and admin part as well
- *
- * This function should be executed after the config file is read in.
- *
- * The reason behind using GLOBAL variables is that
- * there are faster than constants
- */
+// Setup common configuration variables used in both delivery and admin parts
 function setupConfigVariables()
 {
-    $GLOBALS['_MAX']['MAX_DELIVERY_MULTIPLE_DELIMITER'] = '|';
-    $GLOBALS['_MAX']['MAX_COOKIELESS_PREFIX'] = '__';
-    $GLOBALS['_MAX']['thread_id'] = uniqid();
+    // Define global configuration settings
+    $GLOBALS['_MAX'] = [
+        'MAX_DELIVERY_MULTIPLE_DELIMITER' => '|',
+        'MAX_COOKIELESS_PREFIX'           => '__',
+        'thread_id'                       => uniqid(),
+        'SSL_REQUEST'                     => isSSLRequest(), 
+        'MAX_RAND'                        => $GLOBALS['_MAX']['CONF']['priority']['randmax'] ?? 2147483647,
+        'NOW_ms'                          => round(1000 * (float)microtime(true)) /
+    ];
 
-    // Set a flag if this request was made over an SSL connection (used more for delivery rather than UI)
-    $GLOBALS['_MAX']['SSL_REQUEST'] = false;
-    if (
-        (!empty($_SERVER['SERVER_PORT']) && !empty($GLOBALS['_MAX']['CONF']['openads']['sslPort']) && ($_SERVER['SERVER_PORT'] == $GLOBALS['_MAX']['CONF']['openads']['sslPort'])) ||
-        (!empty($_SERVER['HTTPS']) && ((strtolower($_SERVER['HTTPS']) == 'on') || ($_SERVER['HTTPS'] == 1))) ||
-        (!empty($_SERVER['HTTP_X_FORWARDED_PROTO']) && (strtolower($_SERVER['HTTP_X_FORWARDED_PROTO']) == 'https')) ||
-        (!empty($_SERVER['HTTP_X_FORWARDED_SSL']) && (strtolower($_SERVER['HTTP_X_FORWARDED_SSL']) == 'on')) ||
-        (!empty($_SERVER['HTTP_FRONT_END_HTTPS']) && (strtolower($_SERVER['HTTP_FRONT_END_HTTPS']) == 'on')) ||
-        (!empty($_SERVER['FRONT-END-HTTPS']) && (strtolower($_SERVER['FRONT-END-HTTPS']) == 'on'))
-    ) {
-        // This request should be treated as if it was received over an SSL connection
-        $GLOBALS['_MAX']['SSL_REQUEST'] = true;
-    }
-
-    // Maximum random number (use default if doesn't exist - eg the case when application is upgraded)
-    $GLOBALS['_MAX']['MAX_RAND'] = isset($GLOBALS['_MAX']['CONF']['priority']['randmax']) ?
-        $GLOBALS['_MAX']['CONF']['priority']['randmax'] : 2147483647;
-
-    list($micro_seconds, $seconds) = explode(" ", microtime());
-    $GLOBALS['_MAX']['NOW_ms'] = round(1000 * ((float)$micro_seconds + (float)$seconds));
-
-    // Always use UTC when outside the installer
-    if (substr($_SERVER['SCRIPT_NAME'], -11) != 'install.php') {
-        // Save server timezone for auto-maintenance
+    // Set server timezone for auto-maintenance
+    if (!isInstalling()) {
         $GLOBALS['serverTimezone'] = date_default_timezone_get();
         OA_setTimeZoneUTC();
     }
 }
 
-/**
- * A function to initialize $_SERVER variables which could be missing
- * on some environments
- *
- */
-function setupServerVariables()
-{
-    // PHP-CGI/IIS combination does not set REQUEST_URI
-    if (empty($_SERVER['REQUEST_URI'])) {
-        $_SERVER['REQUEST_URI'] = $_SERVER['SCRIPT_NAME'];
-        if (!empty($_SERVER['QUERY_STRING'])) {
-            $_SERVER['REQUEST_URI'] .= '?' . $_SERVER['QUERY_STRING'];
-        }
-    }
+// Check if the installation script is running
+function isInstalling() {
+    return substr($_SERVER['SCRIPT_NAME'], -11) === 'install.php';
 }
 
-/**
- * A function to initialize the environmental constants and global
- * variables required by delivery.
- */
+// Determine if the current request is over SSL
+function isSSLRequest() {
+    return (!empty($_SERVER['HTTPS']) && strtolower($_SERVER['HTTPS']) === 'on') ||
+           ($_SERVER['SERVER_PORT'] === $GLOBALS['_MAX']['CONF']['openads']['sslPort']) ||
+           (strtolower($_SERVER['HTTP_X_FORWARDED_PROTO'] ?? '') === 'https') ||
+           (strtolower($_SERVER['HTTP_X_FORWARDED_SSL'] ?? '') === 'on') ||
+           (strtolower($_SERVER['HTTP_FRONT_END_HTTPS'] ?? '') === 'on') ||
+           (strtolower($_SERVER['FRONT-END-HTTPS'] ?? '') === 'on');
+}
+
+// Setup delivery-specific configuration variables
 function setupDeliveryConfigVariables()
 {
-    if (!defined('MAX_PATH')) {
-        define('MAX_PATH', dirname(__FILE__));
+    defineConstants(['MAX_PATH', 'OX_PATH', 'RV_PATH', 'LIB_PATH']);
+    if (!isset($GLOBALS['_MAX']['CONF'])) {
+        $GLOBALS['_MAX']['CONF'] = parseDeliveryIniFile();
     }
-    if (!defined('OX_PATH')) {
-        define('OX_PATH', MAX_PATH);
-    }
-    if (!defined('RV_PATH')) {
-        define('RV_PATH', MAX_PATH);
+    setupConfigVariables(); // Ensure common variables are set up
+}
+
+// Define multiple constants if not already defined
+function defineConstants($constants)
+{
+    foreach ($constants as $constant) {
+        if (!defined($constant)) {
+            define($constant, dirname(__FILE__));
+        }
     }
     if (!defined('LIB_PATH')) {
         define('LIB_PATH', MAX_PATH . DIRECTORY_SEPARATOR . 'lib' . DIRECTORY_SEPARATOR . 'OX');
     }
-    // Ensure that the initialisation has not been run before
-    if (!(isset($GLOBALS['_MAX']['CONF']))) {
-        // Parse the Max configuration file
-        $GLOBALS['_MAX']['CONF'] = parseDeliveryIniFile();
-    }
-
-    // Set up the common configuration variables
-    setupConfigVariables();
 }
+
+
+
+
+
+
+
 
 /**
  * Set a timezone
