@@ -1,15 +1,5 @@
 <?php
 
-/*
-+---------------------------------------------------------------------------+
-| Revive Adserver                                                           |
-| http://www.revive-adserver.com                                            |
-|                                                                           |
-| Copyright: See the COPYRIGHT.txt file.                                    |
-| License: GPLv2 or later, see the LICENSE.txt file.                        |
-+---------------------------------------------------------------------------+
-*/
-
 /**
  * @package    Max
  *
@@ -27,31 +17,51 @@ require_once 'constants.php';
  * @TODO Should move the user authentication, loading of preferences into this
  *       file, and out of the /www/admin/config.php file.
  */
+/**
+ * Initializes the ad server environment, configures settings, and manages redirection if necessary.
+ */
 function init()
 {
-    // Prevent _MAX from being read from the request string (if register globals is on)
-    unset($GLOBALS['_MAX']);
-    unset($GLOBALS['_OX']);
+    clearGlobalVariables();  
+    initializeEnvironment(); 
 
-    // Set up server variables
-    setupServerVariables();
+    if (shouldRedirect()) {  
+        handleRedirect();    
+    }
 
-    // Set up the UI constants
-    setupConstants();
+    configureErrorHandler(); 
+    adjustMemoryLimits();    
+}
 
-    // Set up the common configuration variables
-    setupConfigVariables();
+/**
+ * Clears global variables to prevent them from being exploited or overwritten unintentionally.
+ */
+function clearGlobalVariables()
+{
+    unset($GLOBALS['_MAX'], $GLOBALS['_OX']);
+}
 
-    // Bootstrap PSR Autoloader and DI container
-    require MAX_PATH . '/lib/vendor/autoload.php';
-    $GLOBALS['_MAX']['DI'] = new \RV\Container($GLOBALS['_MAX']['CONF']);
+/**
+ * Sets up environment configurations, constants, and autoloads necessary classes.
+ */
+function initializeEnvironment()
+{
+    setupServerVariables();  
+    setupConstants();         
+    setupConfigVariables();   
 
-    // Disable all notices and warnings, as lots of code still
-    // generates PHP warnings - especially E_STRICT notices from PEAR
-    // libraries
-    error_reporting(E_ALL & ~(E_NOTICE | E_WARNING | E_DEPRECATED | E_STRICT));
+    require MAX_PATH . '/lib/vendor/autoload.php';  
+    $GLOBALS['_MAX']['DI'] = new \RV\Container($GLOBALS['_MAX']['CONF']);  
 
-    // If not being called from the installation script...
+    error_reporting(E_ALL & ~(E_NOTICE | E_WARNING | E_DEPRECATED | E_STRICT));  /
+    defineInstallationStatus();  
+}
+
+/**
+ * Defines the installation status based on the configuration and file existence.
+ */
+function defineInstallationStatus()
+{
     if ((!isset($GLOBALS['_MAX']['CONF']['openads']['installed'])) || (!$GLOBALS['_MAX']['CONF']['openads']['installed'])) {
         define('OA_INSTALLATION_STATUS', OA_INSTALLATION_STATUS_NOTINSTALLED);
     } elseif ($GLOBALS['_MAX']['CONF']['openads']['installed'] && file_exists(MAX_PATH . '/var/UPGRADE')) {
@@ -59,53 +69,44 @@ function init()
     } elseif ($GLOBALS['_MAX']['CONF']['openads']['installed'] && file_exists(MAX_PATH . '/var/INSTALLED')) {
         define('OA_INSTALLATION_STATUS', OA_INSTALLATION_STATUS_INSTALLED);
     }
+}
 
+/**
+ * Determines whether a redirect to the installation process is necessary based on the current script and installation status.
+ */
+function shouldRedirect()
+{
     global $installing;
-    if ((!$installing) && (PHP_SAPI != 'cli')) {
-        $scriptName = basename($_SERVER['SCRIPT_NAME']);
-        // Direct the user to the installation script if not installed
-        //if (!$GLOBALS['_MAX']['CONF']['openads']['installed'])
-        if ($scriptName != 'install.php' && PHP_SAPI != 'cli' && OA_INSTALLATION_STATUS !== OA_INSTALLATION_STATUS_INSTALLED) {
-            // Do not redirect for maintenance scripts
-            if ($scriptName == 'maintenance.php' || $scriptName == 'maintenance-distributed.php') {
-                exit;
-            }
-            $path = dirname($_SERVER['SCRIPT_NAME']);
-            if ($path == DIRECTORY_SEPARATOR) {
-                $path = '';
-            }
-            if (defined('ROOT_INDEX')) {
-                // The root index.php page was called to get here
-                $location = 'Location: ' . $GLOBALS['_MAX']['HTTP'] .
-                       OX_getHostNameWithPort() . $path . '/www/admin/install.php';
-                header($location);
-            } elseif (defined('WWW_INDEX')) {
-                // The index.php page in /www was called to get here
-                $location = 'Location: ' . $GLOBALS['_MAX']['HTTP'] .
-                       OX_getHostNameWithPort() . $path . '/admin/install.php';
-                header($location);
-            } else {
-                // The index.php page in /www/admin was called to get here
-                $location = 'Location: ' . $GLOBALS['_MAX']['HTTP'] .
-                       OX_getHostNameWithPort() . $path . '/install.php';
-                header($location);
-            }
-            exit();
-        }
-    }
+    return (!$installing && PHP_SAPI != 'cli' && OA_INSTALLATION_STATUS !== OA_INSTALLATION_STATUS_INSTALLED);
+}
 
-    // Start PHP error handler
-    $conf = $GLOBALS['_MAX']['CONF'];
+/**
+ * Performs redirection if the system is not fully installed or upgrading.
+ */
+function handleRedirect()
+{
+    redirectIfNeeded();  // Perform the actual redirection to the installation script.
+}
+
+/**
+ * Configures and starts the custom error handler to manage PHP errors more effectively.
+ */
+function configureErrorHandler()
+{
     include_once MAX_PATH . '/lib/max/ErrorHandler.php';
     $eh = new MAX_ErrorHandler();
     $eh->startHandler();
+}
 
-    // Store the original memory limit before changing it
+/**
+ * Adjusts the PHP memory limit to ensure the application has sufficient resources to operate.
+ */
+function adjustMemoryLimits()
+{
     $GLOBALS['_OX']['ORIGINAL_MEMORY_LIMIT'] = OX_getMemoryLimitSizeInBytes();
-
-    // Increase the PHP memory_limit value to the minimum required value, if necessary
     OX_increaseMemoryLimit(OX_getMinimumRequiredMemory());
 }
+
 
 // Run the init() function
 init();
