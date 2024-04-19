@@ -15,23 +15,30 @@ Revive Ad Server is a powerful open-source ad-serving platform that allows publi
 Prerequisites
 Before you access Revive Ad Server, please ensure that the following prerequisites are met:
 1.	Operating System Compatibility:
+
 •	Verify that the local machine's operating system is compatible with WampServer. WampServer is typically compatible with Windows operating systems, such as Windows 7, 8, or 10.
 2.	Downloaded WampServer Zip Folder:
+
 •	Ensure that the WampServer zip folder from the provided GitHub repository has been successfully downloaded to the local machine. It is called wamp64 on the repository.
 
 
 3.	Extraction Location:
+
 •	Decide on the directory where the wamp64 zip folder will be extracted. It is typically recommended that you extract it to a location with sufficient disk space and easy access. (You can extract it directing to C:\)
 4.	Administrator Privileges:
+
 •	Ensure that the user account used to install WampServer has administrative privileges on the local machine. Administrative privileges may be required to install software and make system-level changes.
 
 
 Installation Instructions
 1.	Launching WampServer:
+
 •	Navigate to the extracted WampServer folder and locate the WampServer executable file (e.g., "WampServer.exe" or "WampServer64.exe").
 •	Double-click the executable file to launch WampServer.
 •	Wait for WampServer to start. Once started, an icon should appear in the system tray (near the clock), indicating that WampServer is running.
+
 2.	Accessing Revive Ad Server:
+
 •	Open a web browser on your local machine.
 •	Type "localhost/revive" in the address bar and press Enter.
 •	The Revive Ad Server login page should appear in the browser window.
@@ -40,13 +47,18 @@ Installation Instructions
 Evaluation 
 Upon logging into Revive Ad Server, you will have access to a comprehensive suite of tools and features to evaluate the functionality and performance of the ad server environment. Here's what you can expect to find:
 1.	Navigation and Overview:
+
 •	Navigate through the ad server dashboard to explore various sections, including advertisers, campaigns, banners, and websites.
 •	Gain insights into how these elements are interconnected to create a cohesive ad-serving platform.
+
+
 2.	Advertisers, Campaigns, and Banners:
 •	View a list of advertisers' associated campaigns within the ad server.
 •	Explore individual campaigns to see the banners and advertisements they contain.
 •	Understand how advertisers create campaigns to promote their products or services and track their effectiveness through the ad server.
+
 3.	Statistics and Performance Metrics:
+
 •	Access statistical data and performance metrics to evaluate the effectiveness of ad campaigns.
 •	To assess campaign performance, view critical metrics such as impressions, clicks, click-through rates (CTR), and conversions.
 •	Gain insights into audience engagement and behaviour to optimise advertising strategies.
