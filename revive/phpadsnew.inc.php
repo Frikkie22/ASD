@@ -1,51 +1,33 @@
 <?php
-
-/*
-+---------------------------------------------------------------------------+
-| Revive Adserver                                                           |
-| http://www.revive-adserver.com                                            |
-|                                                                           |
-| Copyright: See the COPYRIGHT.txt file.                                    |
-| License: GPLv2 or later, see the LICENSE.txt file.                        |
-+---------------------------------------------------------------------------+
-*/
-
-// Globalize context
-// (just in case phpadsnew.inc.php is called from a function)
+// Global context variable accessible across different scopes
 global $phpAds_context;
 
+// Check to prevent duplicate inclusion of this setup
 if (!defined('PHPADSNEW_INCLUDED')) {
-    // Figure out our location
-    if (strlen(__FILE__) > strlen(basename(__FILE__))) {
-        define('MAX_PATH', substr(__FILE__, 0, strlen(__FILE__) - strlen(basename(__FILE__)) - 1));
-    } else {
-        define('MAX_PATH', '.');
-    }
+    // Define MAX_PATH based on the directory of the current file
+    define('MAX_PATH', dirname(__FILE__));
 
-    // Require the initialisation file
+    // Include essential files for delivery initialization
     require MAX_PATH . '/init-delivery.php';
-
-    // Required files
     require MAX_PATH . '/lib/max/Delivery/adSelect.php';
 
-
-    function view_raw($what, $clientid = 0, $target = '', $source = '', $withtext = 0, $context = 0, $richmedia = true)
-    {
+    // Function to fetch an ad without processing its output
+    function view_raw($what, $clientid = 0, $target = '', $source = '', $withtext = 0, $context = 0, $richmedia = true) {
+        // Directly call the ad selection function with minimal parameters
         return MAX_adSelect($what, $clientid, $target, $source, $withtext, '', $context, $richmedia, '', '', '');
     }
 
-    function view($what, $clientid = 0, $target = '', $source = '', $withtext = 0, $context = 0, $richmedia = true)
-    {
-        $output = view_raw($what, $clientid, "$target", "$source", $withtext, $context, $richmedia);
-
+    // Function to display an ad and return its identifier
+    function view($what, $clientid = 0, $target = '', $source = '', $withtext = 0, $context = 0, $richmedia = true) {
+        $output = view_raw($what, $clientid, $target, $source, $withtext, $context, $richmedia);
         if (is_array($output)) {
-            echo $output['html'];
-            return $output['bannerid'];
+            echo $output['html'];  
+            return $output['bannerid'];  
         }
-
-        return false;
+        return false;  // Return false if output is not an array
     }
 
-    // Prevent duplicate includes
+    // Set a flag to indicate this file has been included
     define('PHPADSNEW_INCLUDED', true);
 }
+?>
