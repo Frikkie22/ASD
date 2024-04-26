@@ -3,6 +3,7 @@
 Before proceeding with any actions, please ensure that you have read the instructions provided in the "ASD10S Group Project" document. This document contains important guidelines, setup instructions, and information regarding the project requirements.
 
 Use the link below to view our AD Server, with the credentials below. (make sure it is in http, not https)
+
 http://ec2-13-58-127-70.us-east2.compute.amazonaws.com/revive/www/admin/index.php
 username: Admin
 password: Admin@asd@2024
